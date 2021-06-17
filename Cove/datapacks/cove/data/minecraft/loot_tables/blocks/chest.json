@@ -1,0 +1,299 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:golden_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:trident",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {"minecraft:loyalty": 1}
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:crossbow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:bow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:leather_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:leather_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 9,
+            "name": "minecraft:leather_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 9,
+            "name": "minecraft:leather_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:iron_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:iron_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:iron_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:iron_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:diamond_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:knockback": 2
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "funny ball"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "the funniest of balls",
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_aspect": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:diamond_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:diamond_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:stone_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:stone_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "golden_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:golden_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:golden_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:golden_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:iron_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:golden_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:chainmail_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:chainmail_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:chainmail_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "chainmail_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:shield"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:piercing": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:harming\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:long_poison\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:weakness\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strength\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
